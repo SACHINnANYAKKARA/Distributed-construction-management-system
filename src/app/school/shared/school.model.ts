@@ -2,7 +2,7 @@ export class School {
    
         $key : string;
         name : string;
-        school : string;
+        grade : string;
         class : string;
         subject : string;
     
