@@ -11,6 +11,8 @@ import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeeListComponent } from './employees/employee-list/employee-list.component';
 import { ToastrModule } from 'ngx-toastr';
+import { SchoolComponent } from './school/school.component';
+import { SchoolListComponent } from './school/school-list/school-list.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { ToastrModule } from 'ngx-toastr';
     AppComponent,
     EmployeesComponent,
     EmployeeComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    SchoolComponent,
+    SchoolListComponent
   ],
   imports: [
     BrowserModule,
