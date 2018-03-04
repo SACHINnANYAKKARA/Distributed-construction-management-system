@@ -13,6 +13,7 @@ import { EmployeeListComponent } from './employees/employee-list/employee-list.c
 import { ToastrModule } from 'ngx-toastr';
 import { SchoolComponent } from './school/school.component';
 import { SchoolListComponent } from './school/school-list/school-list.component';
+import { PatientComponent } from './patient/patient.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SchoolListComponent } from './school/school-list/school-list.component'
     EmployeeComponent,
     EmployeeListComponent,
     SchoolComponent,
-    SchoolListComponent
+    SchoolListComponent,
+    PatientComponent
   ],
   imports: [
     BrowserModule,
