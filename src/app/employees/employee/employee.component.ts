@@ -3,7 +3,6 @@ import { NgForm } from '@angular/forms'
 
 import { EmployeeService } from '../shared/employee.service';
 import { ToastrService } from 'ngx-toastr';
-
 @Component({
   selector: 'app-employee',
   templateUrl: './employee.component.html',

@@ -12,8 +12,6 @@ import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeeListComponent } from './employees/employee-list/employee-list.component';
 import { ToastrModule } from 'ngx-toastr';
 import { SchoolComponent } from './school/school.component';
-import { SchoolListComponent } from './school/school-list/school-list.component';
-import { PatientComponent } from './patient/patient.component';
 
 
 @NgModule({
@@ -22,9 +20,7 @@ import { PatientComponent } from './patient/patient.component';
     EmployeesComponent,
     EmployeeComponent,
     EmployeeListComponent,
-    SchoolComponent,
-    SchoolListComponent,
-    PatientComponent
+    SchoolComponent
   ],
   imports: [
     BrowserModule,
