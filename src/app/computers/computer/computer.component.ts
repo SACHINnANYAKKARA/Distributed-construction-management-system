@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ComputerService } from '../shared/computer.service'
+import { ToastrService } from 'ngx-toastr';
+import { NgForm } from '@angular/forms'
 
 @Component({
   selector: 'app-computer',
