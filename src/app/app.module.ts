@@ -12,6 +12,9 @@ import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeeListComponent } from './employees/employee-list/employee-list.component';
 import { ToastrModule } from 'ngx-toastr';
 import { SchoolComponent } from './school/school.component';
+import { ComputersComponent } from './computers/computers.component';
+import { ComputerComponent } from './computers/computer/computer.component';
+import { ComputerListComponent } from './computers/computer-list/computer-list.component';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import { SchoolComponent } from './school/school.component';
     EmployeesComponent,
     EmployeeComponent,
     EmployeeListComponent,
-    SchoolComponent
+    SchoolComponent,
+    ComputersComponent,
+    ComputerComponent,
+    ComputerListComponent
   ],
   imports: [
     BrowserModule,
