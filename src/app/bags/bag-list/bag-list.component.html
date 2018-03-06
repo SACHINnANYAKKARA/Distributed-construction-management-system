@@ -1,3 +1,23 @@
-<p>
-  bag-list works!
-</p>
+<h6 class="text-center">Employee Register</h6><br/>
+<table class="table table-sm table-hover">
+   
+  <tr>
+    <th>Name</th>
+    <th>Position</th>
+    <th>Action</th>    
+    
+ </tr>
+
+  <tr *ngFor="let employee of employeeList">
+      <td>{{employee.name}}</td>
+      <td>{{employee.position}}</td>
+      <td>
+        <a class="btn" (click)="onEdit(employee)">
+          <i class="glyphicon glyphicon-pencil"></i>
+        </a>
+        <a class="btn" (click)="onDelete(employee.$key)">
+          <i class="glyphicon glyphicon-trash"></i>
+        </a>
+      </td>
+  </tr>
+</table>

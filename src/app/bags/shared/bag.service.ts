@@ -10,7 +10,7 @@ export class BagService {
 
 
   getData(){
-    this.bagList = this.firebase.list('bag_area');
+    this.bagList = this.firebase.list('employee_area');
     return this.bagList;
   }
 
