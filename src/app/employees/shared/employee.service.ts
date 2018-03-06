@@ -9,7 +9,7 @@ export class EmployeeService {
   constructor(private firebase :AngularFireDatabase ) { }
 
   getData(){
-    this.employeeList = this.firebase.list('employees');
+    this.employeeList = this.firebase.list('employee_area');
     return this.employeeList;
   }
 

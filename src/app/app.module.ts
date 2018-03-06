@@ -15,6 +15,9 @@ import { SchoolComponent } from './school/school.component';
 import { ComputersComponent } from './computers/computers.component';
 import { ComputerComponent } from './computers/computer/computer.component';
 import { ComputerListComponent } from './computers/computer-list/computer-list.component';
+import { BagsComponent } from './bags/bags.component';
+import { BagComponent } from './bags/bag/bag.component';
+import { BagListComponent } from './bags/bag-list/bag-list.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { ComputerListComponent } from './computers/computer-list/computer-list.c
     SchoolComponent,
     ComputersComponent,
     ComputerComponent,
-    ComputerListComponent
+    ComputerListComponent,
+    BagsComponent,
+    BagComponent,
+    BagListComponent
   ],
   imports: [
     BrowserModule,
