@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+
 import { BagService } from '../shared/bag.service';
 import { Bag } from '../shared/bag.model';
 import { ToastrService } from 'ngx-toastr';
-
 @Component({
   selector: 'app-bag-list',
   templateUrl: './bag-list.component.html',
@@ -15,11 +15,11 @@ export class BagListComponent implements OnInit {
   ngOnInit() {
     var x = this.bagService.getData();
     x.snapshotChanges().subscribe(item => {
-      this. bagList = [];
+      this.bagList = [];
       item.forEach(element => {
         var y = element.payload.toJSON();
         y["$key"] = element.key;
-        this. bagList.push(y as Bag);
+        this.bagList.push(y as Bag);
       });
     });
   }

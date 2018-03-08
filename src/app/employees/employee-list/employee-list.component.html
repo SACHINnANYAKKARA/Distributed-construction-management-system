@@ -8,14 +8,14 @@
     
  </tr>
 
-  <tr *ngFor="let employee of employeeList">
-      <td>{{employee.name}}</td>
-      <td>{{employee.position}}</td>
+  <tr *ngFor="let emp of employeeList">
+      <td>{{emp.name}}</td>
+      <td>{{emp.position}}</td>
       <td>
-        <a class="btn" (click)="onEdit(employee)">
+        <a class="btn" (click)="onEdit(emp)">
           <i class="glyphicon glyphicon-pencil"></i>
         </a>
-        <a class="btn" (click)="onDelete(employee.$key)">
+        <a class="btn" (click)="onDelete(emp.$key)">
           <i class="glyphicon glyphicon-trash"></i>
         </a>
       </td>

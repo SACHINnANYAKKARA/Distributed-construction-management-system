@@ -18,6 +18,9 @@ import { ComputerListComponent } from './computers/computer-list/computer-list.c
 import { BagsComponent } from './bags/bags.component';
 import { BagComponent } from './bags/bag/bag.component';
 import { BagListComponent } from './bags/bag-list/bag-list.component';
+import { FormComponent } from './form/form.component';
+import { FormsComponent } from './form/forms/forms.component';
+import { FormListComponent } from './form/form-list/form-list.component';
 
 
 @NgModule({
@@ -32,7 +35,10 @@ import { BagListComponent } from './bags/bag-list/bag-list.component';
     ComputerListComponent,
     BagsComponent,
     BagComponent,
-    BagListComponent
+    BagListComponent,
+    FormComponent,
+    FormsComponent,
+    FormListComponent
   ],
   imports: [
     BrowserModule,
