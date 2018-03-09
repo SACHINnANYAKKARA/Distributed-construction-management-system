@@ -21,6 +21,9 @@ import { BagListComponent } from './bags/bag-list/bag-list.component';
 import { FormComponent } from './form/form.component';
 import { FormsComponent } from './form/forms/forms.component';
 import { FormListComponent } from './form/form-list/form-list.component';
+import { PrescriptionFormsComponent } from './prescription-forms/prescription-forms.component';
+import { PrescriptionFormComponent } from './prescription-forms/prescription-form/prescription-form.component';
+import { PrescriptionFormListComponent } from './prescription-forms/prescription-form-list/prescription-form-list.component';
 
 
 @NgModule({
@@ -38,7 +41,10 @@ import { FormListComponent } from './form/form-list/form-list.component';
     BagListComponent,
     FormComponent,
     FormsComponent,
-    FormListComponent
+    FormListComponent,
+    PrescriptionFormsComponent,
+    PrescriptionFormComponent,
+    PrescriptionFormListComponent
   ],
   imports: [
     BrowserModule,
