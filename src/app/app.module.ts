@@ -33,6 +33,9 @@ import { PatientInjectionEntryFormListComponent } from './patient-injection-entr
 import { PatientReceiptEntryFormsComponent } from './patient-receipt-entry-forms/patient-receipt-entry-forms.component';
 import { PatientReceiptEntryFormComponent } from './patient-receipt-entry-forms/patient-receipt-entry-form/patient-receipt-entry-form.component';
 import { PatientReceiptEntryFormListComponent } from './patient-receipt-entry-forms/patient-receipt-entry-form-list/patient-receipt-entry-form-list.component';
+import { AccumulatedReceiptFormsComponent } from './accumulated-receipt-forms/accumulated-receipt-forms.component';
+import { AccumulatedReceiptFormComponent } from './accumulated-receipt-forms/accumulated-receipt-form/accumulated-receipt-form.component';
+import { AccumulatedReceiptFormListComponent } from './accumulated-receipt-forms/accumulated-receipt-form-list/accumulated-receipt-form-list.component';
 
 
 
@@ -63,7 +66,10 @@ import { PatientReceiptEntryFormListComponent } from './patient-receipt-entry-fo
     PatientInjectionEntryFormListComponent,
     PatientReceiptEntryFormsComponent,
     PatientReceiptEntryFormComponent,
-    PatientReceiptEntryFormListComponent
+    PatientReceiptEntryFormListComponent,
+    AccumulatedReceiptFormsComponent,
+    AccumulatedReceiptFormComponent,
+    AccumulatedReceiptFormListComponent
    
    
   ],
