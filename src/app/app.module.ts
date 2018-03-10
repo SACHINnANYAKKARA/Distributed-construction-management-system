@@ -24,6 +24,9 @@ import { FormListComponent } from './form/form-list/form-list.component';
 import { PrescriptionFormsComponent } from './prescription-forms/prescription-forms.component';
 import { PrescriptionFormComponent } from './prescription-forms/prescription-form/prescription-form.component';
 import { PrescriptionFormListComponent } from './prescription-forms/prescription-form-list/prescription-form-list.component';
+import { PatientDiagnosisHistoryFormsComponent } from './patient-diagnosis-history-forms/patient-diagnosis-history-forms.component';
+import { PatientDiagnosisHistoryFormComponent } from './patient-diagnosis-history-forms/patient-diagnosis-history-form/patient-diagnosis-history-form.component';
+import { PatientDiagnosisHistoryFormListComponent } from './patient-diagnosis-history-forms/patient-diagnosis-history-form-list/patient-diagnosis-history-form-list.component';
 
 
 @NgModule({
@@ -44,7 +47,10 @@ import { PrescriptionFormListComponent } from './prescription-forms/prescription
     FormListComponent,
     PrescriptionFormsComponent,
     PrescriptionFormComponent,
-    PrescriptionFormListComponent
+    PrescriptionFormListComponent,
+    PatientDiagnosisHistoryFormsComponent,
+    PatientDiagnosisHistoryFormComponent,
+    PatientDiagnosisHistoryFormListComponent
   ],
   imports: [
     BrowserModule,
