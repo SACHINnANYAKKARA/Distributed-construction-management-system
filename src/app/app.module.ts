@@ -36,6 +36,8 @@ import { PatientReceiptEntryFormListComponent } from './patient-receipt-entry-fo
 import { AccumulatedReceiptFormsComponent } from './accumulated-receipt-forms/accumulated-receipt-forms.component';
 import { AccumulatedReceiptFormComponent } from './accumulated-receipt-forms/accumulated-receipt-form/accumulated-receipt-form.component';
 import { AccumulatedReceiptFormListComponent } from './accumulated-receipt-forms/accumulated-receipt-form-list/accumulated-receipt-form-list.component';
+import { PatientReceiptQueryFormComponent } from './patient-receipt-query-form/patient-receipt-query-form.component';
+import { PatientReceiptQueryFormListComponent } from './patient-receipt-query-form/patient-receipt-query-form-list/patient-receipt-query-form-list.component';
 
 
 
@@ -69,7 +71,9 @@ import { AccumulatedReceiptFormListComponent } from './accumulated-receipt-forms
     PatientReceiptEntryFormListComponent,
     AccumulatedReceiptFormsComponent,
     AccumulatedReceiptFormComponent,
-    AccumulatedReceiptFormListComponent
+    AccumulatedReceiptFormListComponent,
+    PatientReceiptQueryFormComponent,
+    PatientReceiptQueryFormListComponent
    
    
   ],
