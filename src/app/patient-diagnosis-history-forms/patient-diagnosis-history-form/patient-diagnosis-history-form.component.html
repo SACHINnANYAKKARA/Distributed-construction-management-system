@@ -1,3 +1,41 @@
-<p>
-  patient-diagnosis-history-form works!
-</p>
+<form #bagForm="ngForm" (ngSubmit)="onSubmit(bagForm)">
+    <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="bagService.selectedBag.$key">
+  <div class="form-group">
+    <label>Name</label>
+    <input class="form-control" name="name" #name="ngModel" [(ngModel)]="bagService.selectedBag.name" placeholder="Full Name" required>
+  </div>
+  <div class="form-group">
+    <label>Position</label>
+    <input class="form-control" name="position" #position="ngModel" [(ngModel)]="bagService.selectedBag.position" placeholder="Position">
+  </div>
+  <div class="form-group">
+    <label>Office</label>
+    <input class="form-control" name="office" #office="ngModel" [(ngModel)]="bagService.selectedBag.office" placeholder="Office">
+  </div>
+
+  <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" name="office" #office="ngModel" [(ngModel)]="bagService.selectedBag.office" placeholder="Office"  id="comment"></textarea>
+    </div>
+
+  <div class="form-group">
+    <label>Salary</label>
+    <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-dollar"></i>
+        </div>
+        <input class="form-control" name="salary" #salary="ngModel" [(ngModel)]="bagService.selectedBag.salary" placeholder="Salary">
+    </div>
+  </div>
+
+
+
+  <div class="form-group">
+    <button class="btn btn-default" type="submit" [disabled]="!bagForm.valid">
+      <i class="fa fa-floppy-o"></i>
+       Submit</button>
+    <button class="btn btn-default" type="button" (click)="resetForm(bagForm)">
+      <i class="fa fa-repeat"></i>
+       Reset</button>
+  </div>
+  </form>
