@@ -30,6 +30,9 @@ import { PatientDiagnosisHistoryFormListComponent } from './patient-diagnosis-hi
 import { PatientInjectionEntryFormsComponent } from './patient-injection-entry-forms/patient-injection-entry-forms.component';
 import { PatientInjectionEntryFormComponent } from './patient-injection-entry-forms/patient-injection-entry-form/patient-injection-entry-form.component';
 import { PatientInjectionEntryFormListComponent } from './patient-injection-entry-forms/patient-injection-entry-form-list/patient-injection-entry-form-list.component';
+import { PatientReceiptEntryFormsComponent } from './patient-receipt-entry-forms/patient-receipt-entry-forms.component';
+import { PatientReceiptEntryFormComponent } from './patient-receipt-entry-forms/patient-receipt-entry-form/patient-receipt-entry-form.component';
+import { PatientReceiptEntryFormListComponent } from './patient-receipt-entry-forms/patient-receipt-entry-form-list/patient-receipt-entry-form-list.component';
 
 
 
@@ -57,7 +60,10 @@ import { PatientInjectionEntryFormListComponent } from './patient-injection-entr
     PatientDiagnosisHistoryFormListComponent,
     PatientInjectionEntryFormsComponent,
     PatientInjectionEntryFormComponent,
-    PatientInjectionEntryFormListComponent
+    PatientInjectionEntryFormListComponent,
+    PatientReceiptEntryFormsComponent,
+    PatientReceiptEntryFormComponent,
+    PatientReceiptEntryFormListComponent
    
    
   ],
