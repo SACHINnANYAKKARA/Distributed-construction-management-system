@@ -42,6 +42,9 @@ import { PatientReceiptQueryFormsComponent } from './patient-receipt-query-form/
 import { GastroscopyTestFormsComponent } from './gastroscopy-test-forms/gastroscopy-test-forms.component';
 import { GastroscopyTestFormComponent } from './gastroscopy-test-forms/gastroscopy-test-form/gastroscopy-test-form.component';
 import { GastroscopyTestFormsListComponent } from './gastroscopy-test-forms/gastroscopy-test-forms-list/gastroscopy-test-forms-list.component';
+import { TestReportsFormsComponent } from './test-reports-forms/test-reports-forms.component';
+import { TestReportsFormComponent } from './test-reports-forms/test-reports-form/test-reports-form.component';
+import { TestReportsFormListComponent } from './test-reports-forms/test-reports-form-list/test-reports-form-list.component';
 
 
 
@@ -81,7 +84,10 @@ import { GastroscopyTestFormsListComponent } from './gastroscopy-test-forms/gast
     PatientReceiptQueryFormsComponent,
     GastroscopyTestFormsComponent,
     GastroscopyTestFormComponent,
-    GastroscopyTestFormsListComponent
+    GastroscopyTestFormsListComponent,
+    TestReportsFormsComponent,
+    TestReportsFormComponent,
+    TestReportsFormListComponent
    
    
   ],
