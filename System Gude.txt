@@ -1,0 +1,1 @@
+<sdk-install-root>/samples/javaee5. Remember to update <sdk-install-root>/samples/bp-project/build.properties before you start working on samples. If build.properties does not exist, you may copy it from build.properties.sample. Refer to <sdk-install-root>/samples/javaee5/index.html for details.
